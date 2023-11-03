@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Document</title>
+  </head>
+  <body style="background-color: black; color: wheat">
+    <div class="language">
+      <li>Java Script</li>
+    </div>
+  </body>
+  <script>
+    function addOptiLang(langname) {
+        const li = document.createElement('li')
+        li.appendChild(document.createTextNode(langname))
+        document.querySelector('.language').appendChild(li)
+    }
+    addOptiLang("Golang");
+    addOptiLang("Python")
+
+    // Java Script
+    // Golang
+    // Python
+  </script>
+</html>
